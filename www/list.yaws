@@ -1,0 +1,10 @@
+<erl>
+out(_A) ->
+  Title = "My List",
+  List = [
+    "My Item 1",
+    "My Item 2",
+    "My Item 3"
+  ],
+  {html, htmltest_template_list:render(Title, List)}.
+</erl>

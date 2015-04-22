@@ -1,0 +1,6 @@
+<erl>
+out(_A) ->
+  Title = "My Title",
+  Article = "My Article",
+  {html, htmltest_template_article:render(Title, Article)}.
+</erl>

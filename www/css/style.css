@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;  
+  line-height: 0;
+}
+
+body {
+  border: 40px solid #fff;
+}
+
+div * {
+  line-height: normal;
+}
+
+#nav {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background: #eee;
+  border-bottom: 1px solid #ccc; 
+  text-align: center;
+}
+
+#nav > ul {
+  display: inline-block;
+  list-style: none;
+}
+
+#nav > ul > li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+#nav > ul > li > a {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+}
+
+#content {
+  padding: 40px;
+}
+
+#footer {
+ height: 40px;
+ line-height: 40px;
+ border-top: 1px solid #ccc; 
+ text-align: center;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
